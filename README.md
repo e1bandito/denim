@@ -18,6 +18,6 @@ npm i
 * SVG-спрайты
 * Адаптивная, валидная, кроссбраузерная(не IE 11, так как гриды) верстка
 
-#### gh-pahes
+#### gh-pages
 
 [denim](https://e1bandito.github.io/denim/)
