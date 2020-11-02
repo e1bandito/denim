@@ -1,0 +1,35 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+.user__btn {
+  background-color: transparent;
+  border: none;
+  appearance: none;
+  cursor: pointer;
+  padding: 0;
+  padding-top: 3px;
+
+  &:not(:first-child) {
+    margin-left: 35px;
+
+    @include max($sm) {
+      margin-left: 25px;
+    }
+  }
+
+  & svg {
+    fill: transparent;
+    stroke: $black;
+    transition: stroke 0.3s;
+  }
+
+  &:hover {
+    & svg {
+      stroke: $blue;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "name": "products/1",
+    "title": "Jacket",
+    "alt": "Jacket",
+    "price": "$ 40",
+    "path": "product-card.html"
+  },
+  {
+    "name": "products/2",
+    "title": "Jacket",
+    "alt": "Jacket",
+    "price": "$ 70",
+    "path": "product-card.html"
+  },
+  {
+    "name": "products/3",
+    "title": "Jacket",
+    "alt": "Jacket",
+    "price": "$ 60",
+    "path": "product-card.html"
+  },
+  {
+    "name": "products/4",
+    "title": "Jacket",
+    "alt": "Jacket",
+    "price": "$ 50",
+    "path": "product-card.html"
+  },
+  {
+    "name": "products/5",
+    "title": "Jacket",
+    "alt": "Jacket",
+    "price": "$ 40",
+    "path": "product-card.html"
+  },
+  {
+    "name": "products/6",
+    "title": "Jacket",
+    "alt": "Jacket",
+    "price": "$ 110",
+    "path": "product-card.html"
+  },
+  {
+    "name": "products/9",
+    "title": "Jacket",
+    "alt": "Jacket",
+    "price": "$ 160",
+    "path": "product-card.html"
+  },
+  {
+    "name": "products/8",
+    "title": "Jacket",
+    "alt": "Jacket",
+    "price": "$ 85",
+    "path": "product-card.html"
+  },
+  {
+    "name": "products/7",
+    "title": "Jacket",
+    "alt": "Jacket",
+    "price": "$ 35",
+    "path": "product-card.html"
+  }
+]

@@ -1,0 +1,37 @@
+include ../btn/btn
+include ../checkbox/checkbox
+
+
+- const colorData = getData('product-color');
+- const sizeData = getData('product-size');
+
+section.product
+  .container
+    .product__inner
+      .product__slider
+        button.product__btn.product__btn--prev
+          +icon('arrow-prev')(width="10", height="21")
+        .product__slider-list
+          .product__item
+            +picture('product/1', 'overall', 'jpg')
+          .product__item
+            +picture('hero', 'overall', 'jpg')
+          .product__item
+            +picture('product/1', 'overall', 'jpg')
+          .product__item
+            +picture('product/1', 'overall', 'jpg')
+        button.product__btn.product__btn--next
+          +icon('arrow-next')(width="10", height="21")
+      form.product__info
+        h1.product__title Overalls
+        p.product__text Overalls in washed organic cotton denim. Collar, button fly, and adjustable belt at waist. Chest pockets with flap. Long, gently flared sleeves and straight legs with front pockets and back pockets.
+        h2.product__subtitle Color
+        .product__wrap
+          each item in colorData
+            +checkbox(item.view, item.type, item.name, item.id, item.checked, item.mod, item.text)
+        h2.product__subtitle Size
+        .product__wrap
+          each item in sizeData
+            +checkbox(item.view, item.type, item.name, item.id, item.checked, item.mod, item.text)
+        p.product__price $ 160
+        +btn('Add to cart', 'submit', '')

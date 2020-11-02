@@ -1,0 +1,15 @@
+include ../btn/btn
+
+section.banner
+  .container
+    .banner__inner
+      .banner__img
+        picture
+          <source type="image/webp" srcset="img/banner@2x.webp 2x,  img/banner.webp 1x">
+          <source srcset="img/banner@2x.jpg 2x,  img/banner.jpg 1x">
+          img(src="img/banner.jpg")
+      .banner__info
+        .banner__info-inner
+          p.banner__text Street fashion collection
+          h3.banner__title Fall 2019
+          +lnk("Shop now", "#", 'banner__btn')

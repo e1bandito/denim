@@ -1,0 +1,47 @@
+[
+  {
+    "view": "checkbox--size",
+    "type": "radio",
+    "name": "size",
+    "id": "size-1",
+    "mod": "",
+    "text": "XS",
+    "checked": true
+  },
+  {
+    "view": "checkbox--size",
+    "type": "radio",
+    "name": "size",
+    "id": "size-2",
+    "mod": "",
+    "text": "S",
+    "checked": false
+  },
+  {
+    "view": "checkbox--size",
+    "type": "radio",
+    "name": "size",
+    "id": "size-3",
+    "mod": "",
+    "text": "M",
+    "checked": false
+  },
+  {
+    "view": "checkbox--size",
+    "type": "radio",
+    "name": "size",
+    "id": "size-4",
+    "mod": "",
+    "text": "L",
+    "checked": false
+  },
+  {
+    "view": "checkbox--size",
+    "type": "radio",
+    "name": "size",
+    "id": "size-5",
+    "mod": "",
+    "text": "XL",
+    "checked": false
+  }
+]

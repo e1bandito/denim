@@ -1,0 +1,28 @@
+[
+  {
+    "name": "by-category/1",
+    "title": "Jeans",
+    "alt": "Jeans",
+    "path": "product-card.html"
+  },
+  {
+    "name": "by-category/2",
+    "title": "Shirts",
+    "alt": "Shirts",
+    "mod": "card--short",
+    "path": "product-card.html"
+  },
+  {
+    "name": "by-category/3",
+    "title": "Jackets",
+    "alt": "Jackets",
+    "path": "product-card.html"
+  },
+  {
+    "name": "by-category/4",
+    "title": "Overalls",
+    "alt": "Overalls",
+    "mod": "card--short",
+    "path": "product-card.html"
+  }
+]

@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  border: none;
+  background-color: $black;
+  min-width: 200px;
+  padding: 22px;
+  color: $white;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  @include max($lg) {
+    min-width: 150px;
+    padding: 19px;
+  }
+
+  &:hover {
+    background-color: $blue;
+  }
+}

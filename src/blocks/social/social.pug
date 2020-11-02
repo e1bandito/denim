@@ -1,0 +1,8 @@
+- const socialData = getData('social')
+
+.social
+  ul.social__list
+    each item in socialData
+      li.social__item
+        a.social__link(href= item.path)
+          +icon(item.img)(width="20" height="20")

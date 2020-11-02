@@ -1,0 +1,19 @@
+extends ../layout/layout
+include ../../blocks/products-best/products-best
+include ../../blocks/products/products
+include ../../blocks/card/card
+include ../../blocks/btn/btn
+
+block variables
+  - let pageTitle = 'catalog'
+  - const products = getData("products")
+
+block content
+  include ../../blocks/header/header
+  include ../../blocks/promo/promo
+  include ../../blocks/filter/filter
+
+  main.main
+    +products(products)
+
+  include ../../blocks/footer/footer

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>catalog</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <div class="header__col">
+          <div class="nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link" href="catalog.html">Woman</a></li>
+              <li class="nav__item"><a class="nav__link" href="catalog.html">Man</a></li>
+              <li class="nav__item"><a class="nav__link" href="catalog.html">New</a></li>
+            </ul>
+          </div><button class="burger"><span class="burger__line"></span><span class="burger__line"></span><span class="burger__line"></span></button>
+        </div>
+        <div class="header__logo"><a class="header__logo-link" href="index.html"><svg width="80" height="20"><use xlink:href="img/sprite.svg#icon_logo"></use></svg></a></div>
+        <div class="header__col">
+          <div class="user"><button class="user__btn user__btn--search"><svg width="18" height="18"><use xlink:href="img/sprite.svg#icon_search"></use></svg></button><button class="user__btn user__btn--cart"><svg width="20" height="18"><use xlink:href="img/sprite.svg#icon_cart"></use></svg></button></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="promo">
+    <div class="container">
+      <div class="promo__inner">
+        <div class="promo__info">
+          <div class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">All categories</a></li>
+              <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Woman</a></li>
+              <li class="breadcrumbs__item"><span class="breadcrumbs__text">Jackets</span></li>
+            </ul>
+          </div>
+          <h1 class="promo__title">Denim Collection Fall 2019</h1>
+        </div>
+        <div class="promo__img">
+          <picture>
+            <source type="image/webp" srcset="img/promo@2x.webp 2x,  img/promo.webp 1x" />
+            <source type="image/webp" srcset="img/promo@2x.jpg 2x,  img/promo.jpg 1x" /><img src="img/promo.jpg" alt="promo image"></picture>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="filter">
+    <div class="container">
+      <div class="filter__inner">
+        <div class="filter__dropdown">
+          <p class="filter__placeholder">Filter by</p>
+          <div class="filter__wrap">
+            <form class="filter__form">
+              <h2 class="filter__title">Filters</h2>
+              <ul class="filter__list accordion">
+                <li class="filter__item"><span class="filter__item-text">Price</span>
+                  <div class="range">
+                    <div class="range__slider"></div>
+                  </div>
+                </li>
+                <li class="filter__item"><span class="filter__item-text">Color</span>
+                  <div class="filter__checkbox-wrap">
+                    <div class="filter__checkbox-inner filter__checkbox-inner--color">
+                      <div class="checkbox checkbox--color checkbox--light-gray"><input class="checkbox__input visually-hidden" type="radio" name="color" id="color-1" checked><label class="checkbox__label" for="color-1"></label></div>
+                      <div class="checkbox checkbox--color checkbox--dark-blue"><input class="checkbox__input visually-hidden" type="radio" name="color" id="color-2"><label class="checkbox__label" for="color-2"></label></div>
+                      <div class="checkbox checkbox--color checkbox--gray"><input class="checkbox__input visually-hidden" type="radio" name="color" id="color-3"><label class="checkbox__label" for="color-3"></label></div>
+                      <div class="checkbox checkbox--color checkbox--black"><input class="checkbox__input visually-hidden" type="radio" name="color" id="color-4"><label class="checkbox__label" for="color-4"></label></div>
+                      <div class="checkbox checkbox--color checkbox--lighter-gray"><input class="checkbox__input visually-hidden" type="radio" name="color" id="color-5"><label class="checkbox__label" for="color-5"></label></div>
+                      <div class="checkbox checkbox--color checkbox--blue"><input class="checkbox__input visually-hidden" type="radio" name="color" id="color-6"><label class="checkbox__label" for="color-6"></label></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="filter__item"><span class="filter__item-text">Collection</span>
+                  <div class="filter__checkbox-wrap">
+                    <div class="filter__checkbox-inner filter__checkbox-inner--collection">
+                      <div class="checkbox checkbox--collection "><input class="checkbox__input visually-hidden" type="radio" name="collection" id="collection-1" checked><label class="checkbox__label" for="collection-1">Casual</label></div>
+                      <div class="checkbox checkbox--collection "><input class="checkbox__input visually-hidden" type="radio" name="collection" id="collection-2"><label class="checkbox__label" for="collection-2">Petite</label></div>
+                      <div class="checkbox checkbox--collection "><input class="checkbox__input visually-hidden" type="radio" name="collection" id="collection-3"><label class="checkbox__label" for="collection-3">Classic</label></div>
+                      <div class="checkbox checkbox--collection "><input class="checkbox__input visually-hidden" type="radio" name="collection" id="collection-4"><label class="checkbox__label" for="collection-4">Soulluxe</label></div>
+                    </div>
+                  </div>
+                </li>
+              </ul><button class="filter__btn filter__btn--apply" type="submit">Apply (9 products)</button><button class="filter__btn filter__btn--clear" type="reset">Clear all</button><button class="filter__btn filter__btn--close" type="button">Close</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <main class="main">
+    <section class="products">
+      <div class="container">
+        <div class="products__inner">
+          <div class="products__list">
+            <li class="products__item"><a class="card" href="product-card.html">
+                <div class="card__img">
+                  <picture>
+                    <source type="image/webp" srcset="img/products/1@2x.webp 2x,  img/products/1.webp 1x" />
+                    <source type="image/webp" srcset="img/products/1@2x.jpg 2x,  img/products/1.jpg 1x" /><img src="img/products/1.jpg" alt="Jacket" /></picture>
+                </div>
+                <p class="card__item-title">Jacket</p>
+                <p class="card__price">$ 40</p>
+              </a></li>
+            <li class="products__item"><a class="card" href="product-card.html">
+                <div class="card__img">
+                  <picture>
+                    <source type="image/webp" srcset="img/products/2@2x.webp 2x,  img/products/2.webp 1x" />
+                    <source type="image/webp" srcset="img/products/2@2x.jpg 2x,  img/products/2.jpg 1x" /><img src="img/products/2.jpg" alt="Jacket" /></picture>
+                </div>
+                <p class="card__item-title">Jacket</p>
+                <p class="card__price">$ 70</p>
+              </a></li>
+            <li class="products__item"><a class="card" href="product-card.html">
+                <div class="card__img">
+                  <picture>
+                    <source type="image/webp" srcset="img/products/3@2x.webp 2x,  img/products/3.webp 1x" />
+                    <source type="image/webp" srcset="img/products/3@2x.jpg 2x,  img/products/3.jpg 1x" /><img src="img/products/3.jpg" alt="Jacket" /></picture>
+                </div>
+                <p class="card__item-title">Jacket</p>
+                <p class="card__price">$ 60</p>
+              </a></li>
+            <li class="products__item"><a class="card" href="product-card.html">
+                <div class="card__img">
+                  <picture>
+                    <source type="image/webp" srcset="img/products/4@2x.webp 2x,  img/products/4.webp 1x" />
+                    <source type="image/webp" srcset="img/products/4@2x.jpg 2x,  img/products/4.jpg 1x" /><img src="img/products/4.jpg" alt="Jacket" /></picture>
+                </div>
+                <p class="card__item-title">Jacket</p>
+                <p class="card__price">$ 50</p>
+              </a></li>
+            <li class="products__item"><a class="card" href="product-card.html">
+                <div class="card__img">
+                  <picture>
+                    <source type="image/webp" srcset="img/products/5@2x.webp 2x,  img/products/5.webp 1x" />
+                    <source type="image/webp" srcset="img/products/5@2x.jpg 2x,  img/products/5.jpg 1x" /><img src="img/products/5.jpg" alt="Jacket" /></picture>
+                </div>
+                <p class="card__item-title">Jacket</p>
+                <p class="card__price">$ 40</p>
+              </a></li>
+            <li class="products__item"><a class="card" href="product-card.html">
+                <div class="card__img">
+                  <picture>
+                    <source type="image/webp" srcset="img/products/6@2x.webp 2x,  img/products/6.webp 1x" />
+                    <source type="image/webp" srcset="img/products/6@2x.jpg 2x,  img/products/6.jpg 1x" /><img src="img/products/6.jpg" alt="Jacket" /></picture>
+                </div>
+                <p class="card__item-title">Jacket</p>
+                <p class="card__price">$ 110</p>
+              </a></li>
+            <li class="products__item"><a class="card" href="product-card.html">
+                <div class="card__img">
+                  <picture>
+                    <source type="image/webp" srcset="img/products/9@2x.webp 2x,  img/products/9.webp 1x" />
+                    <source type="image/webp" srcset="img/products/9@2x.jpg 2x,  img/products/9.jpg 1x" /><img src="img/products/9.jpg" alt="Jacket" /></picture>
+                </div>
+                <p class="card__item-title">Jacket</p>
+                <p class="card__price">$ 160</p>
+              </a></li>
+            <li class="products__item"><a class="card" href="product-card.html">
+                <div class="card__img">
+                  <picture>
+                    <source type="image/webp" srcset="img/products/8@2x.webp 2x,  img/products/8.webp 1x" />
+                    <source type="image/webp" srcset="img/products/8@2x.jpg 2x,  img/products/8.jpg 1x" /><img src="img/products/8.jpg" alt="Jacket" /></picture>
+                </div>
+                <p class="card__item-title">Jacket</p>
+                <p class="card__price">$ 85</p>
+              </a></li>
+            <li class="products__item"><a class="card" href="product-card.html">
+                <div class="card__img">
+                  <picture>
+                    <source type="image/webp" srcset="img/products/7@2x.webp 2x,  img/products/7.webp 1x" />
+                    <source type="image/webp" srcset="img/products/7@2x.jpg 2x,  img/products/7.jpg 1x" /><img src="img/products/7.jpg" alt="Jacket" /></picture>
+                </div>
+                <p class="card__item-title">Jacket</p>
+                <p class="card__price">$ 35</p>
+              </a></li>
+          </div>
+          <div class="products__wrap">
+            <p class="products__count">Showing 9 of 45 items</p><button class="btn">Load more</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo"><a class="footer__logo-link" href="index.html"><svg width="80" height="20"><use xlink:href="img/sprite.svg#icon_logo"></use></svg></a></div><a class="footer__link" href="#">Shop</a><a class="footer__link" href="#">Delivery</a><a class="footer__link" href="#">Service</a><a class="footer__link" href="#">Sitemap</a><a class="footer__link" href="#">Contacts</a>
+        <div class="social">
+          <ul class="social__list">
+            <li class="social__item"><a class="social__link" href="#"><svg width="20" height="20"><use xlink:href="img/sprite.svg#icon_facebook"></use></svg></a></li>
+            <li class="social__item"><a class="social__link" href="#"><svg width="20" height="20"><use xlink:href="img/sprite.svg#icon_instagram"></use></svg></a></li>
+            <li class="social__item"><a class="social__link" href="#"><svg width="20" height="20"><use xlink:href="img/sprite.svg#icon_pinterest"></use></svg></a></li>
+            <li class="social__item"><a class="social__link" href="#"><svg width="20" height="20"><use xlink:href="img/sprite.svg#icon_twitter"></use></svg></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/main.min.js"></script>
+</body>
+
+</html>

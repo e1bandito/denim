@@ -1,0 +1,12 @@
+include ../mixins/mixins
+
+block variables
+  - var pageTitle = 'main'
+
+doctype html
+html(lang="ru")
+  include ./head
+  body
+    block content
+    block scripts
+      include ./scripts

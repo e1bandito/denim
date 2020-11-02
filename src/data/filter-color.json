@@ -1,0 +1,50 @@
+[
+  {
+    "view": "checkbox--color",
+    "type": "radio",
+    "name": "color",
+    "id": "color-1",
+    "mod": "checkbox--light-gray",
+    "checked": true
+  },
+  {
+    "view": "checkbox--color",
+    "type": "radio",
+    "name": "color",
+    "id": "color-2",
+    "mod": "checkbox--dark-blue",
+    "checked": false
+  },
+  {
+    "view": "checkbox--color",
+    "type": "radio",
+    "name": "color",
+    "id": "color-3",
+    "mod": "checkbox--gray",
+    "checked": false
+  },
+  {
+    "view": "checkbox--color",
+    "type": "radio",
+    "name": "color",
+    "id": "color-4",
+    "mod": "checkbox--black",
+    "checked": false
+  },
+  {
+    "view": "checkbox--color",
+    "type": "radio",
+    "name": "color",
+    "id": "color-5",
+    "mod": "checkbox--lighter-gray",
+    "checked": false
+  },
+  {
+    "view": "checkbox--color",
+    "type": "radio",
+    "name": "color",
+    "id": "color-6",
+    "mod": "checkbox--blue",
+    "checked": false
+  }
+]

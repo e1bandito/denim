@@ -1,0 +1,30 @@
+[
+  {
+    "name": "by-like/1",
+    "title": "Overalls",
+    "price": "$ 140",
+    "alt": "Overalls",
+    "path": "product-card.html"
+  },
+  {
+    "name": "by-like/2",
+    "title": "Overalls",
+    "price": "$ 110",
+    "alt": "Overalls",
+    "path": "product-card.html"
+  },
+  {
+    "name": "by-like/3",
+    "title": "Jacket",
+    "price": "$ 70",
+    "alt": "Jacket",
+    "path": "product-card.html"
+  },
+  {
+    "name": "by-like/4",
+    "title": "Jacket",
+    "price": "$ 60",
+    "alt": "Jacket",
+    "path": "product-card.html"
+  }
+]

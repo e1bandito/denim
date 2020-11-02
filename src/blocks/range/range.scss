@@ -1,0 +1,53 @@
+.range {
+  padding: 28px 0 38px;
+  display: none;
+}
+
+.range__slider {
+  margin: 0 18px;
+}
+
+.noUi-tooltip {
+  background-color: transparent;
+  border: none;
+}
+
+.noUi-horizontal .noUi-tooltip {
+  bottom: -29px;
+  left: 15%;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: $black;
+  box-shadow: none;
+  border: none;
+  right: -10px;
+  top: -7px;
+
+  &::before {
+    content: none;
+  }
+
+  &::after {
+    content: none;
+  }
+}
+
+.noUi-target {
+  background-color: $grey;
+  border: none;
+  box-shadow: none;
+}
+
+.noUi-horizontal {
+  height: 2px;
+}
+
+.noUi-connect {
+  background-color: $black;
+}
