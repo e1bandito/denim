@@ -20,7 +20,7 @@ const prettify = require('gulp-jsbeautifier');
 const getData = require('jade-get-data')('src/data');
 const svgSymbols = require('gulp-svg-symbols');
 const gulpIf = require('gulp-if');
-var ghPages = require('gulp-gh-pages');
+const ghPages = require('gulp-gh-pages');
 const argv = require('yargs').argv;
 
 
