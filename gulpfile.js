@@ -20,6 +20,7 @@ const prettify = require('gulp-jsbeautifier');
 const getData = require('jade-get-data')('src/data');
 const svgSymbols = require('gulp-svg-symbols');
 const gulpIf = require('gulp-if');
+var ghPages = require('gulp-gh-pages');
 const argv = require('yargs').argv;
 
 
@@ -156,6 +157,12 @@ gulp.task('copy', () => {
     base: 'src/'
   })
   .pipe(gulp.dest('build'));
+});
+
+// gh-pages
+gulp.task('ghPages', function() {
+  return gulp.src('build/**/*')
+    .pipe(ghPages());
 });
 
 // Watcher
